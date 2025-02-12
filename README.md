@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For this project, I was tasked with analyzing an Organization's ('Oscorp') cybersecurity status and designing a comprehensive cybersecurity program utilizing the [NIST CSF 2.0](https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20) to uplift its security posture. I was given a 'current status' report, much like one that would be compiled after initial investigations and interviews with employees and stakeholders. Using the NIST CSF, I conducted a pass/fail assessment and presented recommendations for improvement. I decided to start with a short presentation to stakeholders to explain the framework and roadmap. I ended by presenting them with a comprehensive list of recommendations and procedures to be implemented.
+For this project, I was tasked with analyzing an Organization's ('Oscorp') cybersecurity status and designing a comprehensive cybersecurity program utilizing the [NIST CSF 2.0](https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20) to uplift its security posture. I was given a 'current status' report, much like one that would be compiled after initial investigations and interviews with employees and stakeholders. Using the NIST CSF, I conducted a pass/fail assessment and presented recommendations for improvement. I started with a short presentation to stakeholders to explain the framework and roadmap. I ended by presenting them with a comprehensive list of recommendations and procedures to be implemented.
 
 ![horizon_labs2](https://github.com/user-attachments/assets/6e1c3012-8e1f-4351-8bcc-3889bf7498a3)
 
@@ -40,9 +40,9 @@ A Target Profile specifies the desired outcomes that an organization has selecte
 
 |Tier           | Cybersecurity Risk Governance                                                    | Cybersecurity Risk Management
 |---------------|----------------------------------------------------------------------------------|------------------------------
-|Tier 4: Adaptive | There is an organization-wide approach to managing cybersecurity risks that uses risk-informed policies, processes, and procedures to address potential cybersecurity events. The relationship between cybersecurity risks and organizational objectives is clearly understood and considered when making decisions. Executives monitor cybersecurity risks in the same context as financial and other organizational risks. The organizational budget is based on an understanding of the current and predicted risk environment and risk tolerance. Business units implement executive vision and analyze system-level risks in the context of the organizational risk tolerances. Cybersecurity risk management is part of the organizational culture. It evolves from an awareness of previous activities and continuous awareness of activities on organizational systems and networks. The organization can quickly and efficiently account for changes to business/mission objectives in how risk is approached and communicated. | The organization adapts its cybersecurity practices based on previous and current cybersecurity activities, including lessons learned and predictive indicators. Through a process of continuous improvement that incorporates advanced cybersecurity technologies and practices, the organization actively adapts to a changing technological landscape and responds in a timely and effective manner to evolving, sophisticated threats. The organization uses real-time or near real-time information to understand and consistently act upon the cybersecurity risks associated with its suppliers and the products and services it acquires and uses. Cybersecurity information is constantly shared throughout the organization and with authorized third parties.
+|Tier 4: Adaptive | There is an organization-wide approach to managing cybersecurity risks that uses risk-informed policies, processes, and procedures to address potential cybersecurity events. The relationship between cybersecurity risks and organizational objectives is clearly understood and considered when making decisions. Executives monitor cybersecurity risks in the same context as financial and other organizational risks. The organizational budget is based on an understanding of the current and predicted risk environment and risk tolerance. Business units implement the executive vision and analyze system-level risks in the context of organisational risk tolerances. Cybersecurity risk management is part of the organizational culture. It evolves from an awareness of previous activities and continuous awareness of activities on organizational systems and networks. The organization can quickly and efficiently account for changes to business/mission objectives in how risk is approached and communicated. | The organization adapts its cybersecurity practices based on previous and current cybersecurity activities, including lessons learned and predictive indicators. Through a process of continuous improvement that incorporates advanced cybersecurity technologies and practices, the organization actively adapts to a changing technological landscape and responds in a timely and effective manner to evolving sophisticated threats. The organization uses real-time or near real-time information to understand and consistently act upon the cybersecurity risks associated with its suppliers and the products and services it acquires and uses. Cybersecurity information is constantly shared throughout the organization and with authorized third parties.
 
-At all times the question should be asked whether data is kept *Confidential*, its *Integrity* is upheld, and is readily *Available* and what risks and vulnerabilities present a danger to this ‘[CIA Triad](https://www.nccoe.nist.gov/publication/1800-26/VolA/index.html)’. 
+At all times the question should be asked whether data is kept *Confidential*, its *Integrity* is upheld, and is ready *Available* and what risks and vulnerabilities present a danger to this ‘[CIA Triad](https://www.nccoe.nist.gov/publication/1800-26/VolA/index.html)’. 
 
 ![image](https://github.com/user-attachments/assets/5b8e35de-2c04-4de8-a82c-bb526a3f6f5c)
 ------
@@ -105,7 +105,7 @@ laptops with the latest Windows desktop version
   - The firewalls have been configured by the network
   - The firewalls get audited every year by the network team
   - The firewalls get regular updates
-  - The IT team have up to date network diagrams. The diagrams include the
+  - The IT team has up-to-date network diagrams. The diagrams include the
 cloud environment.
   - The network is segmented using VLANs.
 
@@ -158,7 +158,7 @@ Utilizing CSF Core functions as a guide, an assessment of Oscorp identified many
 -	*Resources (e.g., hardware, devices, data and software) are NOT prioritized based on their classification, criticality and business value.* There is no asset classification process based in sensitivity and criticality.
 -	*Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are NOT established.*
 
-A vulnerability management policy needs to be implemented. Vulnerabilities need to be classified and prioritized. It is recommended an access agent is installed on all permanent and non-permanent network connected devices in order to authenticate the scan. Utilizing an access agent in conjunction with a vulnerability scanner will greatly improve the scope of the scans. 
+A vulnerability management policy needs to be implemented. Vulnerabilities need to be classified and prioritized. It is recommended an access agent is installed on all permanent and non-permanent network-connected devices in order to authenticate the scan. Utilizing an access agent in conjunction with a vulnerability scanner will greatly improve the scope of the scans. 
 Third-party risk management policy needs to be implemented and IT department needs third-party service provider involvement.
 Assets need to be labeled with a sensitivity or criticality classification determined by the Maximum Tolerable Outage matrix. See figure below for example.
 
@@ -171,7 +171,7 @@ Cybersecurity roles and responsibilities for the entire workforce and third-part
 ### Business Environment:
 -	*The organization’s role in the supply chain is NOT identified and communicated.*
 
-The organization needs clear documentation outlining their role within their own supply chain when it comes to cyber security. Mapping of third-party suppliers, classifying suppliers based on criticality and sensitivity. 
+The organization needs clear documentation outlining its role within their own supply chain when it comes to cyber security. Mapping of third-party suppliers, classifying suppliers based on criticality and sensitivity. 
 
 ### Governance:
 -	*Organizational information security policy is NOT established.*
